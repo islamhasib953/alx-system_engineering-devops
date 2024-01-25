@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+for_ls=$(ls)
+echo $for_ls

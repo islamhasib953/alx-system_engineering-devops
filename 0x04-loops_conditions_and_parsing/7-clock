@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# print 10 times Best School whith if
+# print the time
 
 i=0
 while ((i <= 12))
