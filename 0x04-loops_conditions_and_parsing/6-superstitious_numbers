@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# print 10 times Best School
+
+cnt=1
+while ((cnt <= 20))
+do
+    echo "$cnt"
+    if ((cnt == 4))
+    then
+        echo "bad luck from China"
+    elif ((cnt == 9))
+    then
+        echo "bad luck from Japan"
+    elif ((cnt == 17))
+    then
+        echo "bad luck from Italy"
+    fi
+    ((cnt++))
+done
