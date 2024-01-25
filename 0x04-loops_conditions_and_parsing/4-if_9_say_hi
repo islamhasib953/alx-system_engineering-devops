@@ -1,15 +1,5 @@
 #!/usr/bin/env bash
 # print 10 times Best School
-for ((num = 1; num <= 10; num++))
-do
-    if ((num == 9))
-    then
-        echo "Hi"
-    fi
-    echo Best School
-done
-#!/usr/bin/env bash
-# print 10 times Best School
 
 cnt=1
 while ((cnt <= 10))
