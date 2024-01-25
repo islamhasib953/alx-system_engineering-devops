@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 
 for_ls=$(ls)
-echo $for_ls
+for i in $for_ls; do
+	echo "$i" | cut -d '-' -f 2
+done
