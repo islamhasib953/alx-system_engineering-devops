@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# print 10 times Best School
+
+cnt=1
+while ((cnt <= 10))
+do
+    echo Best School
+    ((cnt++))
+done
