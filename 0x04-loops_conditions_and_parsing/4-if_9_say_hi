@@ -14,10 +14,10 @@ done
 cnt=1
 while ((cnt <= 10))
 do
-    if ((cnt == 9))
+    echo Best School
+    ((cnt++))
+    if ((cnt == 10))
     then
         echo "Hi"
     fi
-    echo Best School
-    ((cnt++))
 done
