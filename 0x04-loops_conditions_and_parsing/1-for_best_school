@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-
-for (( i=1 ; i<=10 ; i++ ))
+# print 10 times Best School
+for ((num = 1; num <= 10; num++))
 do
-    echo "Best School"
+    echo Best School
 done
