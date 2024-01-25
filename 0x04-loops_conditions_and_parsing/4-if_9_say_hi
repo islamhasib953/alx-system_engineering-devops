@@ -8,3 +8,16 @@ do
     fi
     echo Best School
 done
+#!/usr/bin/env bash
+# print 10 times Best School
+
+cnt=1
+while ((cnt <= 10))
+do
+    if ((cnt == 9))
+    then
+        echo "Hi"
+    fi
+    echo Best School
+    ((cnt++))
+done
