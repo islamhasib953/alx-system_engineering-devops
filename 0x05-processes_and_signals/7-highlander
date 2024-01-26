@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#highlander
+_bib()
+{
+    echo 'I am invincible!!!'
+}
+
+trap _bib SIGTERM
+
+while true;
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
