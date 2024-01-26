@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+# This script is displaying To infinity and beyond indefinitely.
+echo $$ >/var/run/myscript.pid
+
+term_handler() {
+	echo "I hate the kill command"
+	rm -f /var/run/myscript.pid
+	exit 0
+}
+
+int_handler() {
+	echo "Y U no love me?!"
+}
+
+quit_handler() {
+	re -f /var/run/myscript.pid
+	exit 0
+}
+
+trap 'term_handler' SIGTERM
+trap 'int_handler' SIGINT
+trap 'quit_handler' SIGQUIT
+
+while true; do
+	echo "To infinity and beyond"
+	sleep 1
+done
