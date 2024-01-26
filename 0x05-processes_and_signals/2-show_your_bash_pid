@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-#show_your_bash_pid_made_easy
+#Process ID
+# shellcheck disable=SC2009
 
-pgrep -l 'bash'
+ps u -eH | egrep 'bash'
