@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#LocalHost
+nc -l 98

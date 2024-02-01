@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#LocalHost
+
+ifconfig | grep inet | awk '!/ether/ {print $2}' | grep '^[0-9]' | cut -d/ -f1
