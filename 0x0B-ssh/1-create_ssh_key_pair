@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-private_key="school"
+private_key="~/.ssh/school"
 key_bit=4096
 key_passphrase="betty"
 
