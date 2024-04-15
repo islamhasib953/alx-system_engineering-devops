@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+private_key="school"
+key_bit=4096
+key_passphrase="betty"
+
+ssh-keygen -t rsa -b "$key_bit" -f "$private_key" -N "$key_passphrase"
