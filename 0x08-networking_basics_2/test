@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+cp /etc/hosts ~/hosts.new
+
+sed -i 's/^172.*$/localhost 127.0.0.2\n facebook.com 8.8.8.8/' ~/hosts.new
+cp -f ~/hosts.new /etc/hosts
+
